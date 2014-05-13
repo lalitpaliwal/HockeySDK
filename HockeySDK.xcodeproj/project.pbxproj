@@ -487,7 +487,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "E9F782A5-2B8F-44FE-AE66-9C4D72C01C0B";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -508,7 +508,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "E9F782A5-2B8F-44FE-AE66-9C4D72C01C0B";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -572,6 +572,7 @@
 				1B9852E71922338000C32A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B9852E81922338000C32A5B /* Build configuration list for PBXNativeTarget "HockeySDKTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +581,7 @@
 				1B9852EA1922338000C32A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
