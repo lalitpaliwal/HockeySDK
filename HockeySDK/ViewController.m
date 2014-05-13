@@ -20,6 +20,18 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+-(IBAction)showAlert:(id)sender
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Test" message:@"Success Alert" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+}
+
+-(IBAction)doCrash:(id)sender
+{
+    NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:3];
+    [array insertObject:@"abc" atIndex:4];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
