@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B4EE193192E36A900DEC2E5 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 		1B9852B01922338000C32A5B /* HockeySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9852B31922338000C32A5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B9852B51922338000C32A5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -154,6 +155,7 @@
 				1B9852CC1922338000C32A5B /* ViewController.m */,
 				1B9852CE1922338000C32A5B /* Images.xcassets */,
 				1B9852BA1922338000C32A5B /* Supporting Files */,
+				1B4EE193192E36A900DEC2E5 /* Script.sh */,
 			);
 			path = HockeySDK;
 			sourceTree = "<group>";
